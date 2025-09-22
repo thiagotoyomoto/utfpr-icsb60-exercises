@@ -1,0 +1,12 @@
+.idea
+.vscode
+.yarn
+
+node_modules
+vendor
+
+build
+dist
+target
+
+.env
