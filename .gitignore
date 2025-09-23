@@ -8,5 +8,7 @@ vendor
 build
 dist
 target
+__pycache__
 
+.envrc
 .env

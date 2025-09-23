@@ -1,0 +1,22 @@
+[project]
+name = "icsb60-exercise-03-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Thiago Toyomoto",email = "contact@thiagotoyomoto.dev"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymongo (>=4.15.1,<5.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.scripts]
+start = "main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
