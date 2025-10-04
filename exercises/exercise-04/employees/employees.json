@@ -1,0 +1,53 @@
+[
+    {
+        "birth_date": "1985-01-15",
+        "first_name": "John",
+        "last_name": "Doe",
+        "gender": "m",
+        "hire_date": "2010-06-01",
+        "salaries": [
+            {
+                "salary": 60000,
+                "from_date": "2010-06-01",
+                "to_date": "2012-05-31"
+            },
+            {
+                "salary": 65000,
+                "from_date": "2012-06-01",
+                "to_date": "2014-05-31"
+            },
+            {
+                "salary": 70000,
+                "from_date": "2014-06-01",
+                "to_date": null
+            }
+        ],
+        "titles": [
+            {
+                "title": "Junior Developer",
+                "from_date": "2010-06-01",
+                "to_date": "2012-05-31"
+            },
+            {
+                "title": "Developer",
+                "from_date": "2012-06-01",
+                "to_date": "2014-05-31"
+            },
+            {
+                "title": "Senior Developer",
+                "from_date": "2014-06-01",
+                "to_date": null
+            }
+        ],
+        "departments": [
+            {
+                "name": "Engineering",
+                "from_date": "2010-06-01",
+                "to_date": null,
+                "manager": [
+                    {"from_date": "2018-01-01", "to_date": null}
+                ]
+            }
+        ]
+    }
+]

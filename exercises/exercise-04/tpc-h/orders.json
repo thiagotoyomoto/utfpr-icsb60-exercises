@@ -1,0 +1,93 @@
+[
+    {
+        "status": "O",
+        "total_price": 173665.47,
+        "order_date": "1996-01-02T00:00:00Z",
+        "priority": {
+            "order": "5-LOW",
+            "ship": 0
+        },
+        "clerk": "Clerk#000000951",
+        "customer": {
+            "name": "John Doe",
+            "address": "123 Elm St, Springfield, IL",
+            "phone": "22-123-456-7890",
+            "mkt_segment": "AUTOMOBILE",
+            "nation": {
+                "name": "BRAZIL",
+                "region": {
+                    "name": "AMERICA"
+                }
+            }
+        },
+        "items": [
+            {
+                "quantity": 17.00,
+                "extended_price": 21168.23,
+                "discount": 0.04,
+                "tax": 0.02,
+                "return_flag": "N",
+                "status": "O",
+                "ship_date": "1996-03-13T00:00:00Z",
+                "commit_date": "1996-02-12T00:00:00Z",
+                "receipt_date": "1996-03-22T00:00:00Z",
+                "ship": {
+                    "instructions": "DELIVER IN PERSON",
+                    "mode": "TRUCK"
+                },
+                "part": {
+                    "name": "lime antique puff moccasin",
+                    "manufacturer": "Manufacturer#1",
+                    "brand": "Brand#13",
+                    "type": "LARGE BRUSHED BRASS",
+                    "size": 36,
+                    "container": "JUMBO JAR"
+                },
+                "supplier": {
+                    "name": "Supplier#000000045",
+                    "nation": {
+                        "name": "GERMANY",
+                        "region": {
+                            "name": "EUROPE"
+                        }
+                    }
+                },
+                "supply_cost": 794.02
+            },
+            {
+                "line_number": 2,
+                "quantity": 36.00,
+                "extended_price": 45584.92,
+                "discount": 0.07,
+                "tax": 0.01,
+                "return_flag": "N",
+                "status": "O",
+                "ship_date": "1996-04-20T00:00:00Z",
+                "commit_date": "1996-03-01T00:00:00Z",
+                "receipt_date": "1996-05-15T00:00:00Z",
+                "ship": {
+                    "instructions": "TAKE BACK RETURN",
+                    "mode": "MAIL"
+                },
+                "part": {
+                    "name": "green metallic smoke",
+                    "manufacturer": "Manufacturer#2",
+                    "brand": "Brand#24",
+                    "type": "SMALL PLATED COPPER",
+                    "size": 4,
+                    "container": "MED BOX"
+                },
+                "supplier": {
+                    "name": "Supplier#000000082",
+                    "nation": {
+                        "name": "UNITED STATES",
+                        "region": {
+                            "name": "AMERICA"
+                        }
+                    }
+                },
+                "supply_cost": 887.39
+            }
+        ]
+    }
+]
